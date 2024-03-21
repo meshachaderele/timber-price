@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-model = joblib.load('pipeline_model.joblib')
+model = joblib.load('https://raw.githubusercontent.com/meshachaderele/timber-price/main/pipeline_model.joblib')
 
 
 def predict_price(features):
